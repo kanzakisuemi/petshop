@@ -10,4 +10,3 @@
 </head>
 <body>
 	<?php include 'inc/openconn.php' ?>
-	
