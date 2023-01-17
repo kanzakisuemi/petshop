@@ -9,11 +9,11 @@
     </tr>
   </thead>
   <tbody>
-    <?php while($row = mysqli_fetch_array($result)): >
+    <?php while($row = mysqli_fetch_array($result)): ?>
       <tr>
-        <td><?= $row['dog_name'] ?></td>
-        <td><?= $row['dog_breed'] ?></td>
-        <td><?= $row['dog_birthday'] ?></td>
+        <td><?= $row['nome'] ?></td>
+        <td><?= $row['raca'] ?></td>
+        <td><?= $row['data_nascimento'] ?></td>
       </tr?>
     <?php endwhile ?>
   </tbody>
