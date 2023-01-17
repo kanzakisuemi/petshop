@@ -3,9 +3,9 @@
 <table class="table caption-top" style="width: 60%; margin: auto;">
   <thead>
     <tr>
-      <th scope="col">Name</th>
-      <th scope="col">Breed</th>
-      <th scope="col">Birthday</th>
+      <th>Name</th>
+      <th>Breed</th>
+      <th>Birthday</th>
     </tr>
   </thead>
   <tbody>
