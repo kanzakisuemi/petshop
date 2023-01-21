@@ -10,6 +10,6 @@
   $data_nascimento =$_POST['data_nascimento'];
 
   $stmt->execute();
-  $stmt->close()
+  $stmt->close();
 ?>
 <?php include 'inc/close_dbconn.php'; ?>

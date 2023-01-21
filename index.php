@@ -1,5 +1,5 @@
-<?php include 'inc/header.php' ?>
-<?php $dogs = mysqli_query($conn, "SELECT * FROM dogs") ?>
+<?php include 'inc/header.php'; ?>
+<?php $dogs = mysqli_query($conn, "SELECT * FROM dogs"); ?>
 <table class="table caption-top" style="width: 60%; margin: auto;">
   <thead>
     <tr>
@@ -15,7 +15,7 @@
         <td><?= $dog['raca'] ?></td>
         <td><?= $dog['data_nascimento'] ?></td>
       </tr?>
-    <?php endwhile ?>
+    <?php endwhile; ?>
   </tbody>
 </table>
-<?php include 'inc/footer.php' ?>
+<?php include 'inc/footer.php'; ?>
