@@ -1,6 +1,5 @@
-<?php
-  header('location:alert.php');
-  include 'inc/open_dbconn.php'?>
+<?php header('location:alert.php'); ?>
+<php? include 'inc/open_dbconn.php'; ?>
 <?php
 $sql = "INSERT INTO dogs (nome, raca, data_nascimento) VALUES (?, ?, ?)";
 $stmt = $conn->prepare($sql);
@@ -13,4 +12,4 @@ $data_nascimento =$_POST['data_nascimento'];
 $stmt->execute();
 $stmt->close()
 ?>
-<?php include 'inc/close_dbconn.php' ?>
+<?php include 'inc/close_dbconn.php'; ?>

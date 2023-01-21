@@ -10,4 +10,4 @@
 	<?php include 'navbar.php' ?>
 </head>
 <body>
-	<?php include 'open_dbconn.php' ?>
+	<?php include 'open_dbconn.php'; ?>
