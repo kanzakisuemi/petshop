@@ -1,6 +1,6 @@
 <?php 
   header('location:alert.php');
-  include 'inc/open_dbconn.php'; ?>
+  include './inc/open_dbconn.php'; ?>
 <?php
   $sql = "INSERT INTO dogs (nome, raca, data_nascimento) VALUES (?, ?, ?)";
   $stmt = $conn->prepare($sql);
@@ -13,4 +13,4 @@
   $stmt->execute();
   $stmt->close();
 ?>
-<?php include 'inc/close_dbconn.php'; ?>
+<?php include './inc/close_dbconn.php'; ?>

@@ -3,9 +3,9 @@
 <table class="table caption-top" style="width: 60%; margin: auto;">
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Breed</th>
-      <th>Birthday</th>
+      <th>Nome</th>
+      <th>Raça</th>
+      <th>Nascimento</th>
     </tr>
   </thead>
   <tbody>
