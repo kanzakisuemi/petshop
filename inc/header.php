@@ -10,3 +10,4 @@
 </head>
 <body>
 	<?php include 'open_dbconn.php'; ?>
+	<div class="container">
