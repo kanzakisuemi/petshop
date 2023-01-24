@@ -6,8 +6,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="http://localhost:8080/petshop/index.php">Home</a>
-        <a class="nav-link" href="http://localhost:8080/petshop/dogs/new.php">Novo dog</a>
+        <a class="nav-link active" aria-current="page" href="/petshop/index.php">Home</a>
+        <a class="nav-link" href="/petshop/dogs/new.php">Novo dog</a>
       </div>
     </div>
   </div>
