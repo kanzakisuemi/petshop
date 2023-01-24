@@ -7,5 +7,6 @@
     <label for="data_nascimento" class="form-label">Birthday</label><br>
     <input type="date" class="form-control" name="data_nascimento" required><br>
     <button class="btn btn-info" type="submit">Submit</button>
+  </form>
 <?php include 'inc/footer.php'; ?>
 

@@ -1,4 +1,5 @@
-<?php header('location:alert.php');
+<?php 
+  header('location:alert.php');
   include 'inc/open_dbconn.php'; ?>
 <?php
   $sql = "INSERT INTO dogs (nome, raca, data_nascimento) VALUES (?, ?, ?)";
