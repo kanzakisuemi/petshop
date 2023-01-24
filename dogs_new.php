@@ -1,12 +1,21 @@
 <?php include 'inc/header.php'; ?>
-  <form style="margin: auto; margin-top: 3%; width: 60%;" action="dogs_create.php" method="post">
-    <label for="nome" class="form-label">Name</label><br>
-    <input type="text" class="form-control" name="nome" required><br>
-    <label for="raca" class="form-label">Breed</label><br>
-    <input type="text" class="form-control" name="raca" required><br>
-    <label for="data_nascimento" class="form-label">Birthday</label><br>
-    <input type="date" class="form-control" name="data_nascimento" required><br>
+<div class="container">
+  <form action="dogs_create.php" method="post">
+    <div class="mb-3">
+      <label for="nome" class="form-label">Name</label><br>
+      <input type="text" class="form-control" name="nome" required><br>
+    </div>
+    <div class="mb-3">
+      <label for="raca" class="form-label">Breed</label><br>
+      <input type="text" class="form-control" name="raca" required><br>
+    </div>
+    <div class="mb-3">
+      <label for="data_nascimento" class="form-label">Birthday</label><br>
+      <input type="date" class="form-control" name="data_nascimento" required><br>
+    </div>
+    <div class="mb-3">
     <button class="btn btn-info" type="submit">Submit</button>
+    </div>
   </form>
+</div>
 <?php include 'inc/footer.php'; ?>
-

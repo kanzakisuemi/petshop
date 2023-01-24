@@ -6,9 +6,9 @@
   $stmt = $conn->prepare($sql);
   $stmt->bind_param("sss", $nome, $raca, $data_nascimento);
 
-  $nome =$_POST['nome'];
-  $raca =$_POST['raca'];
-  $data_nascimento =$_POST['data_nascimento'];
+  $nome = $_POST['nome'];
+  $raca = $_POST['raca'];
+  $data_nascimento = $_POST['data_nascimento'];
 
   $stmt->execute();
   $stmt->close();
