@@ -1,5 +1,5 @@
 <?php include 'inc/header.php'; ?>
-<div class="container">
+<div class="container p-4 px-5">
   <form action="dogs_create.php" method="post">
     <div class="mb-3">
       <label for="nome" class="form-label">Name</label><br>
