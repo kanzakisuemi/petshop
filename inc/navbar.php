@@ -10,7 +10,6 @@
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dogs</a>  
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/petshop/dogs/new.php">Cadastrar</a></li>
-              <li><a class="dropdown-item" href="/petshop/index.php">Listar</a></li>
             </ul>
           </li>
         </ul>
