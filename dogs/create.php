@@ -1,5 +1,5 @@
 <?php 
-  header('location:alert.php');
+  header('location:/petshop/index.php');
   include '../inc/open_dbconn.php'; ?>
 <?php
   $sql = "INSERT INTO dogs (nome, raca, data_nascimento) VALUES (?, ?, ?)";

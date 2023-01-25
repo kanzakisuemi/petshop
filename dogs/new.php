@@ -1,7 +1,6 @@
 <?php include '../inc/header.php'; ?>
-<div class="container p-4">
   <form action="create.php" method="post">
-    <div class="container col-5">
+    <div class="container col-5 p-4">
       <div class="mb-2">
         <label for="nome" class="form-label">Nome</label><br>
         <input type="text" class="form-control" name="nome" required><br>
@@ -19,5 +18,4 @@
       </div>
     </div>
   </form>
-</div>
 <?php include '../inc/footer.php'; ?>
