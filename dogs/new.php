@@ -1,5 +1,5 @@
 <?php include '../inc/header.php'; ?>
-<div class="container p-4 px-5">
+<div class="container p-4">
   <form action="create.php" method="post">
     <div class="container col-5">
       <div class="mb-2">
