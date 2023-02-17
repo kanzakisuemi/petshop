@@ -12,6 +12,6 @@
     "build": "yarn run build-css && yarn run build-js",
     "watch-css": "yarn run build-css --watch",
     "watch-js": "yarn run build-js --watch",
-    "watch": "yarn run build-css & build-js --watch"
+    "watch": "yarn run watch-css & yarn run watch-js --watch"
   }
 }

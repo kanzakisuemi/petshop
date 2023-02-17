@@ -1,6 +1,6 @@
 <?php include 'inc/header.php'; ?>
 <?php $dogs = mysqli_query($conn, "SELECT * FROM dogs"); ?>
-<div class="container col-5 ">
+<div class="container col-5">
   <table class="table caption-top">
     <thead>
       <tr>
